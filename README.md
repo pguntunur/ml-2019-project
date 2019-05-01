@@ -2,7 +2,7 @@
 
 Using 100k comments gathered by the Wikipedia Detox project, we aim to create a program that can read in comments and generate a rating for how aggressive they are.
 
-![Image](src)
+![_Dataset_](https://github.com/pguntunur/ml-2019-project/blob/master/photos/pic-dataset.png)
 
 
 <!---
