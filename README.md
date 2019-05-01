@@ -4,6 +4,8 @@ Using 100k comments gathered by the Wikipedia Detox project, we aim to create a 
 
 ![_Dataset_](https://github.com/pguntunur/ml-2019-project/blob/master/photos/pic-dataset.png)
 
+First, we run the comment data through various preprocessing steps, filtering out punctuation and stop words and using the data to create an array. Using the aggression ratings given by Wikipedia Detox, we then create a target vector of whether a comment is aggressive or not. After, we generate a vector using TfidfVectorizer that represents the words contained in each comment. From the data and target vectors, we finally use a LinearSVC model to fit the data with an accuracy of 91.4%.
+
 
 <!---
 You can use the [editor on GitHub](https://github.com/pguntunur/ml-2019-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
